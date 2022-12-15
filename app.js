@@ -131,8 +131,6 @@ function checkMatch() {
     cardsChosenIds = [];
     if (cardsWon.length == cardArray.length / 2) {
         messageTxtDisplay.innerHTML = 'Congratulations! You found them all!';
-    //    showPopup("Congratulations! You found them all!", "images/smile.png", "win");
-     //   popupMatch.style.visibility = "hidden"
         setTimeout(function () { location.reload() }, 4000)
     }
 }
