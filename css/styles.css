@@ -77,13 +77,17 @@ button:hover {
     left:50%;
     transform: translate(-50%, -50%);
     font-size: 46px;
+    text-align: center;
     font-weight: bolder;
     color: var(--blue);
+    background-color: var(--bg-light);
+  
 }
 .background {
     background-color:  var(--bg-dark);
 }
 .grid {
+    position: relative;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
