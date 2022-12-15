@@ -1,0 +1,32 @@
+.component {
+    width: 100%;
+    height: 100%;
+    background-color: var(--main-bg);
+    background-image: url(../images/bg-space-400.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+@media (min-width: 401px ) {
+    .component { 
+        background-image: url(../images/bg-space-768.jpg);
+    }
+}
+
+@media (min-width: 769px ) {
+    .component { 
+        background-image: url(../images/bg-space-1024.jpg);
+    }
+}
+
+@media (min-width: 1025px ) {
+    .component { 
+        background-image: url(../images/bg-space-1960.jpg);
+    }
+}
+@media (min-width: 1960px ) {
+    .component { 
+        background-image: url(../images/bg-space-3000.jpg);
+    }
+}
