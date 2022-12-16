@@ -131,7 +131,7 @@ function checkMatch() {
     cardsChosenIds = [];
     if (cardsWon.length == cardArray.length / 2) {
         messageTxtDisplay.innerHTML = 'Congratulations! You found them all!';
-        setTimeout(function () { location.reload() }, 4000)
+        setTimeout(function () { location.reload() }, 5000)
     }
 }
 
